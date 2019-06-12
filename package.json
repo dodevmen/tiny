@@ -1,10 +1,20 @@
 {
-  "name": "dominicmaitimu",
-  "version": "0.0.1",
+  "name": "dominicmaitimu2",
+  "version": "0.0.4",
   "description": "Test",
   "main": "index.js",
+  "bin": {
+    "dominicmaitimu2": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "createBase.js"
+  ],
+  "engines": {
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
@@ -15,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/dodevmen/tiny/issues"
   },
-  "homepage": "https://github.com/dodevmen/tiny#readme"
+  "homepage": "https://github.com/dodevmen/tiny#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "fs-extra": "^8.0.1",
+    "semver": "^6.1.1"
+  }
 }
