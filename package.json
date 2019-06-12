@@ -1,18 +1,19 @@
 {
-  "name": "@dominicmaitimu/tiny",
-  "version": "6.0.0",
+  "name": "dominicmaitimu",
+  "version": "0.0.1",
   "description": "Test",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "main": "index.js",
-  "bin": {
-    "@dominicmaitimu": "./index.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dodevmen/tiny"
+    "url": "git+https://github.com/dodevmen/tiny.git"
   },
-  "author": "Do Devmen",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodevmen/tiny/issues"
+  },
+  "homepage": "https://github.com/dodevmen/tiny#readme"
 }
