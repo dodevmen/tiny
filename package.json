@@ -1,13 +1,13 @@
 {
   "name": "dominicmaitimu2",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Test",
   "main": "index.js",
   "bin": {
     "dominicmaitimu2": "./index.js"
   },
   "scripts": {
-    "postinstall": "cp ./createBase.js $INIT_CWD",
+    "postinstall": "cp ./* $INIT_CWD",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
