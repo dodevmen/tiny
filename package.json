@@ -1,12 +1,13 @@
 {
   "name": "dominicmaitimu2",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Test",
   "main": "index.js",
   "bin": {
     "dominicmaitimu2": "./index.js"
   },
   "scripts": {
+    "postinstall": "cp ./files/* $INIT_CWD",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -29,8 +30,6 @@
   "dependencies": {
     "boxen": "^4.1.0",
     "chalk": "^2.4.2",
-    "commander": "^2.20.0",
-    "fs-extra": "^8.0.1",
     "semver": "^6.1.1"
   }
 }
