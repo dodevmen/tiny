@@ -1,13 +1,13 @@
 {
   "name": "@dominicmaitimu/tiny",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Test",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "main": "index.js",
   "bin": {
-    "@dominicmaitimu/tiny": "./index.js"
+    "@dominicmaitimu": "./tiny/index.js"
   },
   "repository": {
     "type": "git",
