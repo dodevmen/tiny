@@ -1,6 +1,6 @@
 {
   "name": "dominicmaitimu2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test",
   "main": "index.js",
   "bin": {
@@ -30,6 +30,7 @@
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "fs-extra": "^8.0.1",
+    "ncp": "^2.0.0",
     "semver": "^6.1.1"
   }
 }
