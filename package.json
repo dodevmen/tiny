@@ -1,6 +1,6 @@
 {
   "name": "@dominicmaitimu/tiny",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Test",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
