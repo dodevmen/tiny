@@ -7,7 +7,7 @@
     "dominicmaitimu2": "./index.js"
   },
   "scripts": {
-    "postinstall": "node ./index",
+    "postinstall": "./postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [

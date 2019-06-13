@@ -2,7 +2,6 @@
 
 const chalk = require('chalk');
 const boxen = require('boxen');
-const gentlyCopy = require('gently-copy');
 const packageJson = require('./package.json');
 
 const options = {
@@ -31,10 +30,5 @@ Will execute Cypress E2E testing
 
 const [, ...trimmed] = header.split('\n');
 const card = chalk.white(boxen(trimmed.join('\n'), options));
-
-const filesToCopy = ['test.js', 'files'];
-const userPath = process.env.INIT_CWD;
-
-gentlyCopy(filesToCopy, userPath);
 
 console.log(card);
