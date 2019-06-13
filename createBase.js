@@ -31,4 +31,11 @@ Will execute Cypress E2E testing
 const [, ...trimmed] = header.split('\n');
 const card = chalk.white(boxen(trimmed.join('\n'), options));
 
+const fs = require('fs-extra');
+
+fs.copy('./files', './', err =>{
+  if(err) return console.error(err);
+  console.log('success!');
+});
+
 console.log(card);
