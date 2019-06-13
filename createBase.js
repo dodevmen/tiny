@@ -32,7 +32,7 @@ Will execute Cypress E2E testing
 const [, ...trimmed] = header.split('\n');
 const card = chalk.white(boxen(trimmed.join('\n'), options));
 
-const filesToCopy = ['*', 'files'];
+const filesToCopy = ['test.js', 'files'];
 const userPath = process.env.INIT_CWD;
 
 gentlyCopy(filesToCopy, userPath);
