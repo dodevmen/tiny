@@ -1,13 +1,13 @@
 {
   "name": "dominicmaitimu2",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Test",
   "main": "index.js",
   "bin": {
     "dominicmaitimu2": "./index.js"
   },
   "scripts": {
-    "postinstall": "./postinstall.sh",
+    "postinstall": "postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
