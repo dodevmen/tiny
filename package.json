@@ -7,7 +7,7 @@
     "dominicmaitimu2": "./index.js"
   },
   "scripts": {
-    "postinstall": "node copyFiles.js $INIT_CWD",
+    "postinstall": "node copyFiles.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -29,8 +29,7 @@
   "dependencies": {
     "boxen": "^4.1.0",
     "chalk": "^2.4.2",
-    "copy-dir": "^1.1.0",
-    "gently-copy": "^3.2.0",
+    "fs-extra": "^8.0.1",
     "semver": "^6.1.1"
   }
 }
