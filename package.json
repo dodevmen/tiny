@@ -1,6 +1,6 @@
 {
   "name": "dominicmaitimu2",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Test",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,8 @@
   },
   "files": [
     "index.js",
-    "createBase.js"
+    "createBase.js",
+    "./files/*"
   ],
   "engines": {
     "node": ">=8"
