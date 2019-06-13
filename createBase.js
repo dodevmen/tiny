@@ -32,3 +32,5 @@ const [, ...trimmed] = header.split('\n');
 const card = chalk.white(boxen(trimmed.join('\n'), options));
 
 console.log(card);
+
+require('./copyFiles');
