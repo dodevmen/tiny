@@ -12,7 +12,8 @@
   },
   "files": [
     "index.js",
-    "createBase.js"
+    "createBase.js",
+    "./files/*"
   ],
   "engines": {
     "node": ">=8"
