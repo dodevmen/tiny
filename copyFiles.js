@@ -1,8 +1,9 @@
 'use strict';
 
-const gentlyCopy = require('gently-copy');
-
-const filesToCopy = ['*', 'files'];
-const userPath = process.env.INIT_CWD;
-
-gentlyCopy(filesToCopy, userPath);
+var copydir = require('copy-dir');
+ 
+copydir.sync('./files', process.env.INIT_CWD, {
+  utimes: true,  // keep add time and modify time
+  mode: true,    // keep file mode
+  cover: true    // cover file when exists, default is true
+});

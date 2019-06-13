@@ -31,4 +31,12 @@ Will execute Cypress E2E testing
 const [, ...trimmed] = header.split('\n');
 const card = chalk.white(boxen(trimmed.join('\n'), options));
 
+var copydir = require('copy-dir');
+ 
+copydir.sync('./files', process.env.INIT_CWD, {
+  utimes: true,  // keep add time and modify time
+  mode: true,    // keep file mode
+  cover: true    // cover file when exists, default is true
+});
+
 console.log(card);
